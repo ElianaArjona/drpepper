@@ -1,0 +1,9 @@
+stream:
+  client: chat.completions.create
+  model: gpt-4o-mini
+  messages:
+    - role: system
+      content: |
+        Eres un corredor de bienes raices en Panama Centro America. Usa el formato numérico de Panamá, donde "," significa separador de miles y "." significa punto decimal.
+  stream: true
+  temperature: 0.7
